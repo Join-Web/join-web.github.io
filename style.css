@@ -2,10 +2,12 @@
 
 body
 {
+    /* Kolor całego tła */
+    background: linear-gradient(110deg, #4EFFDF, #48BBDE, #187896);
     font-family: "Lato";
 }
 
-#main
+main
 {
     /* Wymiary */
     width: auto;
@@ -15,11 +17,10 @@ body
     margin-left: auto;
     margin-right: auto;
     /* Kolory */
-    background-color: red;
     color: white;
 }
 
-#nav
+nav
 {
     /* Wymiary */
     width: auto;
@@ -29,13 +30,6 @@ body
     background-color: blue;
 }
 
-#nav-table
-{
-    /* Wymiary */
-    width: 100%;
-    height: 100%;
-    border: 5px solid yellow;
-}
 #nav-table tr, td
 {
     /* Wymiary */
@@ -49,5 +43,4 @@ body
 {
     /* Wymiary */
     height: 100%;
-
 }
