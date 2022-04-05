@@ -11,13 +11,14 @@ main
 {
     /* Wymiary */
     width: auto;
+    max-width: 1000px;
+    min-width: 650px;
     height: 1000px;
     border: 5px solid green;
     /* Położenie */
     margin-left: auto;
     margin-right: auto;
     /* Kolory */
-    color: white;
 }
 
 nav
@@ -28,6 +29,15 @@ nav
     border: 5px solid black;
     /* Kolory */
     background-color: blue;
+    color: white;
+}
+
+content
+{
+    /* Wymiary */
+    width: auto;
+    height: 100px;
+    background-color: red;
 }
 
 #nav-table tr, td
