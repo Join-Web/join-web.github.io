@@ -1,23 +1,32 @@
 #main
 {
-    /* Wymiary diva */
+    /* Wymiary */
     width: auto;
     height: 1000px;
-    /* Położenie diva */
+    border: 5px solid green;
+    /* Położenie */
     margin-left: auto;
     margin-right: auto;
-    /* Kolory w divie */
+    /* Kolory */
     background-color: red;
     color: white;
 }
 
 #nav
 {
-    /* Wymiary diva */
+    /* Wymiary */
     width: auto;
     height: 100px;
     border: 5px solid black;
-    /* Położenie diva */
-    /* Kolory diva */
+    /* Kolory */
     background-color: blue;
+}
+
+#nav-table
+{
+    /* Wymiary */
+    width: 100%;
+    height: 100%;
+    border: 5px solid yellow;
+    
 }
