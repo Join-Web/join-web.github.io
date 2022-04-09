@@ -45,6 +45,7 @@ nav
     /* Kolory */
     background-color: var(--bg-color2);
     text-shadow: 1px 1px var(--color1);
+    cursor: pointer;
 }
 
 
