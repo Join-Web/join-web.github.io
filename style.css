@@ -14,7 +14,7 @@ body
 {
     /* Kolor całego tła */
 
-    background: linear-gradient(110deg, var(--bg-color3), var(--bg-color2), var(--bg-color1));
+    background: linear-gradient(110deg, var(--bg-color3), var(--bg-color2), var(--bg-color1)); 
     font-family: "Lato";
     color: var(--font-color);
     /* Wymiary */
