@@ -1,4 +1,6 @@
-/* ! ANIMACJE */
+/* ! =-=-=-= ANIMACJE =-=-=-= ! */
+
+/* ! - -   NAV :hover   - - ! */
 
 /* animacja obracania w nav :hover */
 .nav-default, .nav-default2 
@@ -12,7 +14,7 @@
 {
   /* kolory */
   background: var(--bg-color2);
-  /* animacja */
+  /* położenie */
   transition: all 1s;
   z-index: 2;
 }
@@ -21,8 +23,8 @@
 {
   /* kolory */
   background: var(--color3);
-  color: white;
-  /* animacja */
+  color: var(--font-color2);
+  /* położenie */
   transform: rotateX(180deg);
   transition: all 1s;
   z-index: 1;
@@ -41,4 +43,22 @@ td:hover .nav-default2
 {
     transform: rotateX(360deg);
     z-index: 2;
+}
+
+
+/* ! - -   BACKGROUN   - - ! */
+
+body
+{
+    /* bg */
+    background: linear-gradient(100deg, var(--bg-color3), var(--bg-color2), var(--bg-color1)); 
+    background-size: 120%;
+    /* animacja */
+    animation: change-bg 10s ease-in-out infinite;
+}
+@keyframes change-bg
+{
+    0%{background-position: 0%, 50%;}
+    50%{background-position: 100% ,50%;}
+    100%{background-position: 0% ,50%;}
 }

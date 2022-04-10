@@ -6,6 +6,7 @@
     --bg-color2: #d70000;
     --bg-color3: #4ec1ff;
     --font-color: #d3d3d3;
+    --font-color2: #f5f5f5;
     --color1: #3d3d3d;
     --color2: #000000;
     --color3: #be0101;
@@ -29,7 +30,6 @@ main
     border: 1px solid var(--color1);
     /* Położenie */
     margin: auto;
-    /* Kolory */
 }
 
 nav
@@ -55,9 +55,9 @@ content
 {
     /* Wymiary */
     display: block;
-    background-color: rgba(255, 253, 253, 0.8);
+    background-color: rgba(255, 253, 253, 0.7);
     padding: 30px;
-    /* font */
+    /* Font */
     font-size: 30px;
     color: var(--color1);
     text-align: center;
@@ -67,9 +67,9 @@ content
 {
     /* Wymiary */
     height: 39px;
-
     /* Położenie */
     text-align: center;
+    /* Font */
     font-size: 130%;
 }
 
@@ -82,7 +82,7 @@ content
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-
+    /* Cursor */
     cursor: pointer;
 }
 
