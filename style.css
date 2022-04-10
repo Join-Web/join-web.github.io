@@ -23,8 +23,8 @@ main
 {
     /* Wymiary */
     width: auto;
-    max-width: 1100px;
-    min-width: 650px;
+    max-width: 57%;
+    min-width: 850px;
     border: 1px solid var(--color1);
     /* Położenie */
     margin-left: auto;
@@ -59,14 +59,14 @@ content
     text-align: center;
 }
 
-#nav-table tr, td
+#nav-table, td
 {
     /* Wymiary */
     width: 25%;
     height: 39px;
     /* Położenie */
     text-align: center;
-    font-size: xx-large;
+    font-size: 142%;
 }
 
 #nav-table
