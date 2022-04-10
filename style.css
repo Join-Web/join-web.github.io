@@ -4,7 +4,7 @@
 {
     --bg-color1: #ffbc2c;
     --bg-color2: #d70000;
-    --bg-color3: #4EFFDF;
+    --bg-color3: #4ec1ff;
     --font-color: #d3d3d3;
     --color1: #3d3d3d;
     --color2: #000000;
@@ -13,8 +13,6 @@
 body
 {
     /* Kolor całego tła */
-
-    background: linear-gradient(110deg, var(--bg-color3), var(--bg-color2), var(--bg-color1)); 
     font-family: "Lato";
     color: var(--font-color);
     /* Wymiary */
@@ -53,7 +51,7 @@ content
 {
     /* Wymiary */
     display: block;
-    background-color: rgba(255, 253, 253, 0.709);
+    background-color: rgba(255, 253, 253, 0.8);
     padding: 30px;
     /* font */
     font-size: 30px;

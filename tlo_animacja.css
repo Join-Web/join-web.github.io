@@ -1,13 +1,12 @@
 body{
-    --bg-color1: #ffbc2c;
-    --bg-color2: #d70000;
-    --bg-color3: #4ec1ff;
+    /* bg */
     background: linear-gradient(100deg, var(--bg-color3), var(--bg-color2), var(--bg-color1)); 
     background-size: 120%;
-    position: relative;
-    animation:change 2s ease-in-out infinite;
+    /* animacja */
+    animation: change-bg 4s ease-in-out infinite;
 }
-@keyframes change{
+
+@keyframes change-bg{
     0%{background-position: 0%, 50%;}
     50%{background-position: 100% ,50%;}
     100%{background-position: 0% ,50%;}
