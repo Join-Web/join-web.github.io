@@ -8,6 +8,8 @@
     --font-color: #d3d3d3;
     --color1: #3d3d3d;
     --color2: #000000;
+    /* --color3: #be0101; */
+    --color3: #012dbe;
 }
 
 body
@@ -27,8 +29,7 @@ main
     min-width: 850px;
     border: 1px solid var(--color1);
     /* Położenie */
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     /* Kolory */
 }
 
@@ -36,16 +37,20 @@ nav
 {
     /* Wymiary */
     border: 2px solid var(--color2);
-
     /* Żeby się przyklejała */
     position: sticky;
     top: 0;
     /* Kolory */
     background-color: var(--bg-color2);
     text-shadow: 1px 1px var(--color1);
-    cursor: pointer;
 }
 
+nav img
+{
+    /* Wymiary */
+    width: 39px;
+    height: 39px;
+}
 
 content
 {
@@ -62,19 +67,24 @@ content
 #nav-table, td
 {
     /* Wymiary */
-    width: 25%;
     height: 39px;
+
     /* Położenie */
     text-align: center;
-    font-size: 142%;
+    font-size: 130%;
 }
 
 #nav-table
 {
     /* Wymiary */
-    width: 100%;
+    width: 98%;
     height: 100%;
-    border-spacing: 6px;
+    border-spacing: 0;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    cursor: pointer;
 }
 
 #nav-logo, #nav-news, #nav-members, #nav-info

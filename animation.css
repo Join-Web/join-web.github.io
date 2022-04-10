@@ -1,32 +1,44 @@
 /* ! ANIMACJE */
 
 /* animacja obracania w nav :hover */
-.nav-default, .nav-default2 {
+.nav-default, .nav-default2 
+{
     /* wymiary */
     position: absolute;
     width: 25%;
-  }
-  .nav-default {
-    /* kolory */
-    background: var(--bg-color2);
-    /* animacja */
-    transform: perspective( 500) rotateX( 0deg );
-    transition: all 1s;
-    z-index: 2;
-  }
-  .nav-default2 {
-    /* kolory */
-    background: var(--bg-color1);
-    color: white;
-    /* animacja */
-    transform: perspective( 500) rotateX( 360deg );
-    transition: all 1s;
+}
+
+.nav-default 
+{
+  /* kolory */
+  background: var(--bg-color2);
+  /* animacja */
+  transition: all 1s;
+  z-index: 2;
+}
+
+.nav-default2 
+{
+  /* kolory */
+  background: var(--color3);
+  color: white;
+  /* animacja */
+  transform: rotateX(180deg);
+  transition: all 1s;
+  z-index: 1;
+  height: 39px;
+}
+
+
+  /* animacja */
+td:hover .nav-default 
+{
+    transform: rotateX(180deg);
     z-index: 1;
-  }
-  td:hover .nav-default {
-    transform: perspective( 500px ) rotateX(360deg);
-  }
-  td:hover .nav-default2 {
-    transform: perspective( 500px ) rotateX(360deg);
-    z-index: 3;
-  }
+    height: 37px;
+}
+td:hover .nav-default2 
+{
+    transform: rotateX(360deg);
+    z-index: 2;
+}
