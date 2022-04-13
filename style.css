@@ -19,6 +19,9 @@ body
     color: var(--font-color);
     /* Wymiary */
     margin: 0;
+
+    /* Aby scrollbar działał */
+    overflow: overlay;
 }
 
 main
@@ -90,4 +93,33 @@ content
 {
     /* Wymiary */
     height: 100%;
+}
+
+
+
+
+
+
+/* Scrollbar */
+html::-webkit-scrollbar
+{
+    width: 2vh;
+    height: 2vh;
+}
+html::-webkit-scrollbar-thumb
+{
+    background-color: var(--color3);
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb:hover
+{
+    background-color: var(--color3);
+}
+html::-webkit-scrollbar-track
+{
+    background-color: transparent;
+}
+html::-webkit-scrollbar-corner
+{
+    background-color: transparent;
 }
