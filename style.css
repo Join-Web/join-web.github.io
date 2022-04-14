@@ -19,6 +19,7 @@ body
     color: var(--font-color);
     /* Wymiary */
     margin: 0;
+    
 
 
     /* background-image: url("img/szkola.jpg"); */
@@ -30,6 +31,12 @@ body
 
     /* Aby scrollbar działał */
     overflow: overlay;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--font-color);
 }
 
 main
@@ -53,14 +60,21 @@ nav
     /* Kolory */
     font-weight: bold;
     /* background-color: var(--bg-color2); */
+    background-color: rgba(46, 46, 46, 0.6);
     text-shadow: 1px 1px var(--color1);
+
+    /* Wymiary */
+    padding: 10px;
+    /* Położenie */
+    text-align: center;
+    /* Font */
+    font-size: 130%;
 }
 
-nav img
+nav a
 {
-    /* Wymiary */
-    width: 39px;
-    height: 39px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 content
@@ -73,35 +87,6 @@ content
     font-size: 30px;
     color: var(--color1);
     text-align: center;
-}
-
-#nav-table, td
-{
-    /* Wymiary */
-    height: 39px;
-    /* Położenie */
-    text-align: center;
-    /* Font */
-    font-size: 130%;
-}
-
-#nav-table
-{
-    /* Wymiary */
-    width: 98%;
-    height: 100%;
-    border-spacing: 0;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    /* Cursor */
-    cursor: pointer;
-}
-
-#nav-logo, #nav-news, #nav-members, #nav-info
-{
-    /* Wymiary */
-    height: 100%;
 }
 
 
