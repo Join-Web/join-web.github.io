@@ -46,12 +46,13 @@ main
 nav
 {
     /* Wymiary */
-    border: 2px solid var(--color2);
+    /* border: 2px solid var(--color2); */
     /* Żeby się przyklejała */
     position: sticky;
     top: 0;
     /* Kolory */
-    background-color: var(--bg-color2);
+    font-weight: bold;
+    /* background-color: var(--bg-color2); */
     text-shadow: 1px 1px var(--color1);
 }
 

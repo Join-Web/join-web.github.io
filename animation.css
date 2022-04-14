@@ -1,4 +1,4 @@
-/* ! =-=-=-= ANIMACJE =-=-=-= ! */
+! =-=-=-= ANIMACJE =-=-=-= !
 
 /*
   DO PÓŹNIEJSZEGO USUNIĘCIA
@@ -29,7 +29,7 @@
 .nav-default 
 {
   /* kolory */
-  background: var(--bg-color2);
+  /* background: var(--bg-color2); */
   /* położenie */
   transition: all 1s;
   z-index: 2;
@@ -38,7 +38,7 @@
 .nav-default2 
 {
   /* kolory */
-  background: var(--color3);
+  /* background: var(--color3); */
   color: var(--font-color2);
   /* położenie */
   transform: rotateX(180deg);
