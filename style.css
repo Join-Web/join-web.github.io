@@ -64,7 +64,6 @@ nav
     font-size: 140%;
     font-weight: bold;
 }
-
 nav a
 {
     /* wymiary */
@@ -75,6 +74,10 @@ nav a:hover
 {
     /* font */
     color: var(--font-color3);
+}
+.nav-selected
+{
+    color: var(--font-color2);
 }
 
 content
