@@ -7,6 +7,7 @@
     --bg-color3: #4ec1ff;
     --font-color: #858585;
     --font-color2: #f5f5f5;
+    --font-color3: #c3c3c3;
     --color1: #2d2d2d;
     --color2: #000000;
     --color3: #be0101;
@@ -73,7 +74,7 @@ nav a
 nav a:hover
 {
     /* font */
-    color: var(--font-color2);
+    color: var(--font-color3);
 }
 
 content
