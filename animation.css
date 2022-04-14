@@ -1,4 +1,4 @@
-! =-=-=-= ANIMACJE =-=-=-= !
+/* ! =-=-=-= ANIMACJE =-=-=-= ! */
 
 /*
   DO PÓŹNIEJSZEGO USUNIĘCIA
@@ -15,50 +15,3 @@
 --color2: #000000;
 --color3: #be0101; 
 */
-
-/* ! - -   NAV :hover   - - ! */
-
-/* animacja obracania w nav :hover */
-.nav-default, .nav-default2 
-{
-    /* wymiary */
-    position: absolute;
-    width: 25%;
-}
-
-.nav-default 
-{
-  /* kolory */
-  /* background: var(--bg-color2); */
-  /* położenie */
-  transition: all 1s;
-  z-index: 2;
-}
-
-.nav-default2 
-{
-  /* kolory */
-  /* background: var(--color3); */
-  color: var(--font-color2);
-  /* położenie */
-  transform: rotateX(180deg);
-  transition: all 1s;
-  z-index: 1;
-  height: 39px;
-}
-
-
-  /* animacja */
-td:hover .nav-default 
-{
-    transform: rotateX(180deg);
-    z-index: 1;
-    height: 37px;
-}
-td:hover .nav-default2 
-{
-    transform: rotateX(360deg);
-    z-index: 2;
-}
-
-
