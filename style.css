@@ -19,14 +19,9 @@ body
     color: var(--font-color);
     /* Wymiary */
     margin: 0;
-    
-
-
-    /* background-image: url("img/szkola.jpg"); */
+    /* bg */
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ),url(img/szkola.jpg);
     background-size: cover;
-
-    /* background-color: #000000; */
     background-attachment: fixed;
 
     /* Aby scrollbar działał */
@@ -35,6 +30,7 @@ body
 
 a
 {
+    /* font */
     text-decoration: none;
     color: var(--font-color);
 }
@@ -52,32 +48,31 @@ main
 
 nav
 {
-    /* Wymiary */
-    /* border: 2px solid var(--color2); */
     /* Żeby się przyklejała */
     position: sticky;
     top: 0;
-    /* Kolory */
-    font-weight: bold;
-    /* background-color: var(--bg-color2); */
+    
+    /* bg */
     background-color: rgba(46, 46, 46, 0.6);
     text-shadow: 1px 1px var(--color1);
-
     /* Wymiary */
     padding: 10px;
     /* Położenie */
     text-align: center;
     /* Font */
-    font-size: 130%;
+    font-size: 140%;
+    font-weight: bold;
 }
 
 nav a
 {
+    /* wymiary */
     margin-right: 50px;
     margin-left: 50px;
 }
 nav a:hover
 {
+    /* font */
     color: var(--font-color2);
 }
 
@@ -85,8 +80,9 @@ content
 {
     /* Wymiary */
     display: block;
-    background-color: rgba(255, 253, 253, 0.9);
     padding: 30px;
+    /* bg */
+    background-color: rgba(255, 253, 253, 0.9);
     /* Font */
     font-size: 30px;
     color: var(--color1);
@@ -106,7 +102,6 @@ html::-webkit-scrollbar
 html::-webkit-scrollbar-thumb
 {
     background-color: var(--color1);
-    /* border-radius: 10px; */
 }
 html::-webkit-scrollbar-thumb:hover
 {
