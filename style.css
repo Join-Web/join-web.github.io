@@ -76,6 +76,10 @@ nav a
     margin-right: 50px;
     margin-left: 50px;
 }
+nav a:hover
+{
+    color: var(--font-color2);
+}
 
 content
 {
