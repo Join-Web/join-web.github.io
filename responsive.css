@@ -1,0 +1,112 @@
+/* ! =-=-=-= RESPONSYWNOŚĆ =-=-=-= ! */
+
+
+.mobile-version
+{
+    display: none;
+}
+.mobile-version a
+{
+    margin: 20px;
+}
+
+
+@media (max-width: 1750px) 
+{
+  main
+  {
+    max-width: 70%;
+  }
+}
+@media (max-width: 1400px) 
+{
+  main
+  {
+    max-width: 80%;
+  }
+}
+@media (max-width: 1220px) 
+{
+  main
+  {
+    max-width: 90%;
+  }
+}
+@media (max-width: 1170px) 
+{
+  main
+  {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1000px) 
+{
+  main
+  {
+    max-width: 70%;
+  }
+  .img-article
+  {
+    width: 80%;
+  }
+  .mobile-version
+  {
+    display: block;
+  }
+  .img-onas
+  {
+    width: 40%;
+  }
+  .normal
+  {
+    display: none;
+  }
+}
+@media (max-width: 820px) 
+{
+  main
+  {
+    max-width: 80%;
+  }
+  .img-article
+  {
+    width: 80%;
+  }
+}
+@media (max-width: 750px) 
+{
+  main
+  {
+    max-width: 90%;
+  }
+  .img-article
+  {
+    width: 80%;
+  }
+}
+@media (max-width: 650px) 
+{
+  main
+  {
+    max-width: 100%;
+  }
+  .img-article
+  {
+    width: 90%;
+  }
+}
+@media (max-width: 520px) 
+{
+  main
+  {
+    max-width: 100%;
+  }
+  .img-article
+  {
+    width: 95%;
+  }
+  .img-onas
+  {
+    width: 60%;
+  }
+}

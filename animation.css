@@ -1,21 +1,8 @@
 /* ! =-=-=-= ANIMACJE =-=-=-= ! */
 
-/*
-  DO PÓŹNIEJSZEGO USUNIĘCIA
-
-  ABY DZIAŁAŁ DODATEK:
-  Color Highlight
-
-    --color1: #2d2d2d;
-    --color2: #000000;
-    --color3: #be0101;
-    --color4: #ffbc2c;
-    --color5: #858585;
-    --color6: #f5f5f5;
-    --color7: #c3c3c3; 
-*/
 
 /* ? Article animation */
+
 /* img */
 article:hover .img-article
 {
