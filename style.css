@@ -48,6 +48,7 @@ main
 
 nav
 {
+    z-index: 1;
     /* Żeby się przyklejała */
     position: sticky;
     top: 0;
@@ -109,7 +110,7 @@ article
 {
     /* wymiary */
     border-radius: 30px;
-    margin: .5%;
+    /* margin: .5%; */
     width: 45%;
 }
 
@@ -148,6 +149,14 @@ article
     border-radius: 50%;
     width: 20%;
     margin: 20px;
+}
+.img-aktualnosci
+{
+    /* wymiary */
+    border-radius: 30px;
+    margin: .5%;
+    width: 90%;
+    margin-top: 10%;
 }
 
 
