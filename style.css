@@ -140,11 +140,23 @@ content
 }
 .onas
 {
+    /* wymiary */
+    display: inline;
+    position: relative;
+    /* font */
+    color: var(--color6);
+    text-shadow: 2px 2px var(--color1);
+    font-size:110%;
+}
+.onas-text
+{
+    /* cursor */
+    cursor: pointer;
     /* font */
     font-size: 1em;
     /* wymiary */
     top: -200%;
-}
+}   
 .img-onas
 {
     /* wymiary */
