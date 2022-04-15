@@ -11,6 +11,8 @@
     --color7: #c3c3c3;
 }
 
+html { scroll-behavior: smooth; } 
+
 body
 {
     /* font */
