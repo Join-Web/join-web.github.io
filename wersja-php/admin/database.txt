@@ -1,0 +1,40 @@
+CREATE DATABASE joinweb DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+USE joinweb;
+
+CREATE TABLE users
+(
+	id_user int PRIMARY KEY AUTO_INCREMENT,
+    username varchar(30),
+    password varchar(30)
+);
+
+CREATE TABLE article
+(
+	id_article int PRIMARY KEY AUTO_INCREMENT,
+    title varchar(31),
+    subtitle varchar(63),
+    article varchar(4095),
+    img varchar(255)
+);
+
+// Wprowadzanie wartości
+
+
+// Konta admina
+INSERT INTO users(username, password) VALUES
+(
+	"ww",
+    "pass"
+);
+
+
+
+// Pomocnicze
+INSERT INTO article(title, subtitle, article, img) VALUES
+(
+    "tytuł",
+    "text na głównej po najechaniu",
+    "text cały",
+    "img.jpg"
+);
