@@ -9,10 +9,6 @@
     --color5: #858585;
     --color6: #f5f5f5;
     --color7: #c3c3c3;
-
-    --mdc-theme-primary: #ffbc2c;
-    --mdc-theme-secondary: #ffde3e;
-    --mdc-theme-surface: #dfdfdf;
 }
 
 html { scroll-behavior: smooth; } 
@@ -189,26 +185,6 @@ content
     margin-bottom: 20px;
     padding: 60px;
     padding-top: 20px;
-}
-
-.h1
-{
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.submit
-{
-    border: none;
-    font-size: 1.3em;
-}
-
-/* Material */
-.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label{
-    color: #dd772a;
-}
-.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-floating-label {
-    color: #b00020;
 }
 
 
