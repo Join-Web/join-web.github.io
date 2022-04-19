@@ -1,3 +1,5 @@
+//Aby utworzyć bazę wpisać wszystko co nie posiada //
+
 CREATE DATABASE joinweb DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 USE joinweb;
@@ -20,8 +22,9 @@ CREATE TABLE article
 
 // Wprowadzanie wartości
 
-
 // Konta admina
+
+
 INSERT INTO users(username, password) VALUES
 (
 	"ww",
@@ -31,10 +34,10 @@ INSERT INTO users(username, password) VALUES
 
 
 // Pomocnicze
-INSERT INTO article(title, subtitle, article, img) VALUES
-(
-    "tytuł",
-    "text na głównej po najechaniu",
-    "text cały",
-    "img.jpg"
-);
+//INSERT INTO article(title, subtitle, article, img) VALUES
+//(
+//    "tytuł",
+//    "text na głównej po najechaniu",
+//    "text cały",
+//    "img.jpg"
+//);
